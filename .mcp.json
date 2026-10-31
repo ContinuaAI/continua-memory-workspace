@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "continua-project-room": {
+      "type": "http",
+      "url": "https://app.askcontinua.com/mcp?subset=mini"
+    }
+  }
+}

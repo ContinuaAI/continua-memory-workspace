@@ -1,0 +1,43 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets and local config (never commit API keys or tokens)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.claude/settings.local.json
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+.cache/
+
+# Node / Python tooling, if used for local scripts
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build and packaging output
+dist/
+build/
+*.zip
+
+# Local test data: borrower packages, data rooms, and research outputs
+# often contain confidential deal information. Keep them out of the repo.
+test-data/
+samples/private/
+outputs/

@@ -1,0 +1,41 @@
+{
+  "name": "continua-memory-workspace",
+  "version": "0.1.0",
+  "description": "Continua Memory & Workspace gives Claude and your agents persistent, versioned memory and a shared workspace in Continua Project Rooms. Remember decisions, conventions, and session context across sessions, machines, and teammates; hand off long-running and multi-agent work through a write-ahead log with conflict checks; research large technical corpora such as API docs, RFCs, specs, and logs with file and line citations using up to 1B tokens of working context; build a cited data dictionary and metric glossary for text-to-SQL and analytics; and generate grounded eval sets for RAG and agents. Every file is an immutable, restorable version. Connects to the Continua Project Room MCP server (https://app.askcontinua.com/mcp?subset=mini) and requires a Continua account; access and usage follow your account permissions and plan.",
+  "icon": "./logo.png",
+  "author": {
+    "name": "Continua AI",
+    "url": "https://askcontinua.com"
+  },
+  "homepage": "https://askcontinua.com/project-room",
+  "repository": "https://github.com/ContinuaAI/continua-memory-workspace",
+  "documentationUrl": "https://askcontinua.com/project-room",
+  "supportUrl": "https://askcontinua.com/help",
+  "privacyPolicyUrl": "https://app.askcontinua.com/privacy-policy",
+  "termsOfServiceUrl": "https://app.askcontinua.com/terms-of-service",
+  "license": "MIT",
+  "keywords": [
+    "memory",
+    "agent memory",
+    "persistent memory",
+    "long-term memory",
+    "shared workspace",
+    "multi-agent",
+    "agent handoff",
+    "context engineering",
+    "knowledge base",
+    "second brain",
+    "llm wiki",
+    "ADR",
+    "RAG",
+    "evals",
+    "eval set",
+    "text-to-SQL",
+    "data dictionary",
+    "semantic layer",
+    "citations",
+    "versioning",
+    "project room"
+  ],
+  "mcpServers": "./.mcp.json"
+}
